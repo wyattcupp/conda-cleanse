@@ -1,0 +1,35 @@
+# Ignore the compiled executable file
+uninstall_anaconda_miniconda.sh
+
+# Ignore backup files
+*.bak
+
+# Ignore log files
+*.log
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+
+# Ignore swap files
+*.swp
+*.swo
+
+# Ignore other unwanted files
+*.~undo-tree~
+
+# Ignore shell history files
+.history
+
+# Ignore any other user-specific configuration files
+*~
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore any output files
+output/
+
