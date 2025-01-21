@@ -12,7 +12,7 @@ else
 fi
 
 printf "\n========================================\n"
-printf "AIDS (Anaconda/Miniconda) Removal Script\n"
+printf "(Anaconda/Miniconda) Removal Script\n"
 printf "========================================\n\n"
 
 read -p "Are you uninstalling Anaconda or Miniconda? (a/m): " version
@@ -119,6 +119,6 @@ safe_remove "$HOME/.jupyter"
 safe_remove "$HOME/Library/Jupyter"
 
 printf "\n================================================================================\n"
-printf "AIDS (Anaconda/Miniconda) has been completely removed from your system. Congrats!\n"
+printf "(Anaconda/Miniconda) has been completely removed from your system. Congrats!\n"
 printf "Please restart your terminal to apply all changes.\n"
 printf "================================================================================\n"
